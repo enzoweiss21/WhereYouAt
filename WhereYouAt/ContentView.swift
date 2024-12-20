@@ -9,7 +9,7 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
-            Text("Text the group chat 💩 emoji If you can see this")
+            Text("Text the group chat 💩 If you can see this..... I am seeing if this push works")
                 .font(.largeTitle)
                 .padding()
         }
