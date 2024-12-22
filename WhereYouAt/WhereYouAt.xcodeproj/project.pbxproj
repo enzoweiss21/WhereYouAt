@@ -27,7 +27,6 @@
 		2F03D06E2D162CD800489250 /* WhereYouAt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WhereYouAt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F03D07E2D162CD900489250 /* WhereYouAtTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WhereYouAtTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F03D0882D162CD900489250 /* WhereYouAtUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WhereYouAtUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		2F03D0B32D188BF400489250 /* WhereYouAt.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = WhereYouAt.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -89,13 +88,6 @@
 				2F03D06E2D162CD800489250 /* WhereYouAt.app */,
 				2F03D07E2D162CD900489250 /* WhereYouAtTests.xctest */,
 				2F03D0882D162CD900489250 /* WhereYouAtUITests.xctest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		2F03D0B42D188BF400489250 /* Products */ = {
-			isa = PBXGroup;
-			children = (
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -203,18 +195,9 @@
 			);
 			mainGroup = 2F03D0652D162CD800489250;
 			minimizedProjectReferenceProxies = 1;
-			packageReferences = (
-				2F03D0A72D18881800489250 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
-			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 2F03D06F2D162CD800489250 /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = 2F03D0B42D188BF400489250 /* Products */;
-					ProjectRef = 2F03D0B32D188BF400489250 /* WhereYouAt.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				2F03D06D2D162CD800489250 /* WhereYouAt */,
@@ -569,17 +552,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		2F03D0A72D18881800489250 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 11.6.0;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
 	};
 	rootObject = 2F03D0662D162CD800489250 /* Project object */;
 }
